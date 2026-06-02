@@ -1,0 +1,5 @@
+package com.example.HibernateDemo1.model;
+
+public class User {
+
+}
