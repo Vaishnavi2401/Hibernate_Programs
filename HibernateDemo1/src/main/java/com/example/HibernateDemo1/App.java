@@ -21,7 +21,7 @@ public class App {
     	Transaction transaction = session.beginTransaction();
     	
     	User user = new User();
-    	user.setId(4);
+    	user.setId(1);
     	user.setName("test User 2");
     	user.setEmail("test28@yopmail.com");
     	

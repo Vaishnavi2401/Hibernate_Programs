@@ -28,7 +28,10 @@ public class AppUpdate {
 			user.setName("New User");
 			user.setEmail("newuser112@example.com");
 			
-			session.remove(user);
+			
+			session.merge(user); // updation
+			// session.remove(user); // Deletion
+			
 			flag = true;
 			
 		}
